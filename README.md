@@ -42,3 +42,17 @@ Official IRC channel:
 
 ------------------------------------------
 sledgehammer999 \<sledgehammer999@qbittorrent.org\>
+
+### Build Arch Linux:
+Download git:
+`sudo pacman -S git`
+
+Clone repository:
+`git clone https://aur.archlinux.org/qbittorrent-git.git`
+
+Open directory:
+`cd qbittorrent-git`
+
+Build:
+`makepkg -si`
+
